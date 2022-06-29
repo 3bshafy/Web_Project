@@ -1,0 +1,154 @@
+body
+    {
+        background-image : url('5015.jpg');
+        background-size : cover ;  
+        background-repeat : no-repeat ;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; 
+        font-family: 'Poppins', sans-serif; 
+    }
+    
+.SUB:hover,.PLACING:hover{
+            color: #C9B328;
+          font-size: 25px;
+            cursor: pointer;
+        }
+.PLACING{
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 10px;
+            font-weight: bold;
+            color: white;
+            
+        }
+ .cpyrit{
+            text-align: center;
+            color:  white; 
+        }
+            
+.titlebox
+    {
+        border : 1px solid white ;
+        padding : 10px ;
+        border-radius : 10px ;
+    }
+            
+.logo
+    {
+        text-align : center ;
+        color : #C9B32B ; 
+    }
+            
+.head 
+    {
+        color : white ; 
+        text-align : center ;     
+    }
+    
+.container
+{
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+}
+    
+.container .box
+{
+    position: relative;
+    width: 350px ;
+    padding: 40px ;
+    background: #fff;
+    box-shadow: 7px 10px #F8F8FF ;
+    border-radius: 25px ;
+    margin: 20px ;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    transition: 1s;
+}
+
+.box:hover
+{
+ background: #192841;
+ color : white ;
+ transform: scale(0.94);
+}
+
+
+.container .box .icon
+{
+    position: relative;
+    width: 80px ;
+    height: 80px ;
+    color : #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px ;
+    font-weight: 700 ;
+    transition: 1s; 
+}
+
+.container .box:nth-child(1) .icon
+{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63; 
+}
+ 
+ .container .box:nth-child(2) .icon
+{
+    box-shadow: 0 0 0 0 #23e629;
+    background: #23e629;
+}
+ 
+ .container .box:nth-child(3) .icon
+{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3; 
+}
+
+ 
+  .container .box .cotent h3
+  {
+    font-size: 20px ;
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+ .icon1 , .icon2 , .icon3
+  {
+    display: inline-block;
+    box-shadow: 0 0 0 1px #1e2030 ;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none ; 
+  }
+  
+  .icon1:hover
+  {
+   box-shadow: 0 0 0 1px #1e2030 ;
+   background: #e91e63 ;
+   color: white ; 
+  }
+  
+  .icon2:hover
+  {
+   box-shadow: 0 0 0 1px #1e2030 ;
+   background: #23e629 ;
+   color: white ; 
+  }
+  
+  .icon3:hover
+  {
+   box-shadow: 0 0 0 1px #1e2030 ;
+   background: #2196f3 ;
+   color: white ; 
+  }

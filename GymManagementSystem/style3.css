@@ -1,0 +1,154 @@
+/*title style*/
+
+.box
+{
+   border: 1px solid black;
+   padding: 10px;
+   background-color: transparent;
+   box-shadow: 29px 18px 21px;
+   border-radius: 10px;
+}
+
+.logo
+{
+    color: #4F61CB;
+    text-align: center;
+     border: 1px solid white;
+     border-radius: 10px;
+    
+}
+
+ul
+{
+    float:right;
+    font-family: candara;
+    font-size: 17px;
+   
+}
+
+ul li
+{
+    float: left;
+    width: 295px;
+    text-decoration: none;
+    list-style-type: none;
+    right: 20%;
+    
+}
+
+ul li a
+{
+   
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover
+{
+    border: 3px solid #4F61CB;
+    border-radius:7px;
+    background-color:#29E00D; 
+}
+
+.main ul
+{
+ 
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    box-shadow: 19px 18px 21px;
+    
+    
+}
+/*background style*/
+body
+{
+    
+    background:url(member.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ footer p
+ {
+    color: white;
+    text-align: center;
+   
+ }
+ .submenu
+ {
+   left: 7%;
+ }
+ .submenu1
+ {
+  left:75%;
+ }
+.submenu , .submenu1 
+{
+ border: 1px solid transparent;
+ width: 275px;
+ background-color: black;
+ position: absolute;
+ top:40%;
+ font-family: latha;
+ box-shadow: 9px 10px 11px 8px;
+ border-radius: 23px;
+ 
+}
+.submenu h1, .submenu1 h1
+{
+ font-size: 16px;
+ font-family: cavet,cursive;
+ font-weight: normal;
+ color: #4F61CB;
+ text-align: center;
+
+}
+.submenu p , .submenu1 p 
+{
+ font-size: 13px;
+ font-family: cavet,cursive;
+ font-weight: normal;
+ color: white;
+
+
+}
+ .submenu:hover ,.submenu1:hover 
+ {
+  color: #4F61CB;
+  box-shadow:1px 2px 2px 11px;
+  background-color: #77797A;
+  
+ }
+img
+{
+ border-radius:23px;
+}
+
+.slo
+{
+ border: 3px solid white;
+ padding: 12px;
+ border-radius: 23px;
+ position: absolute;
+ color:#4F61CB;
+ left: 35%;
+ top:35%;
+ font-size: 60px;
+ text-align: center;
+
+}
+
+
+
+.main .fa
+{
+ margin-right: 8px;
+}
+
+
+
+
+
+
